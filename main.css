@@ -1,0 +1,118 @@
+
+.container{
+    width: 500px;
+    min-height: 100px;
+}
+.calculator{
+    width: 100%;
+    min-height: 20px;
+    background: rgb(206,55,235);
+    background: linear-gradient(90deg, rgba(206,55,235,1) 10%, rgba(51,205,118,1) 50%, rgba(0,212,255,1) 83%);
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: 3px 0px 5px 1px rgb(24, 52, 15);
+}
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start ;
+
+}
+.box{
+    height: 30px;
+    width: 20%;
+    text-align: center;
+}
+.value{
+    margin-left: 20px;
+}
+.PFONE{
+    margin-left: 47px;
+}
+.SUM{
+    margin-left: 47px;
+}
+.columns1{
+    width: 100%;
+    height: 40px;
+    /* background-colo/r: aqua; */
+    background-image: url(/ForProject.jpg);
+    background-size: contain;
+    padding-top: 5px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.columns{
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+    background-image: url(/ForProject.jpg);
+    background-size: contain;
+    padding-top: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* transition: height 2s; */
+    
+}
+
+input[type="text"] {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    box-shadow: 3px 0px 5px 0px rgb(24, 52, 15);
+    outline: none;
+
+  }
+  .hide{
+    display: none;    
+  }
+
+  .addnew{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 30%;
+    line-height: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 0px 5px 1px rgb(24, 52, 15);
+
+    
+    }
+    .addnew:hover{
+        cursor: pointer;
+        background-color: rgb(151, 215, 55);
+    }
+    .Sum{
+        width: 100px;
+        background-color: white;
+        height: 35px;
+        text-align: center;
+        border: 1px solid black;
+        box-shadow: 3px 0px 5px 1px rgb(24, 52, 15);
+    }
+    .BottPlace{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #FullSum{
+        width: 150px;
+        height: 40px;
+        background-color: aliceblue;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+        padding-top: 7px;
+        font-size: 30px;
+        box-shadow: 3px 0px 5px 1px rgb(24, 52, 15);
+    }
