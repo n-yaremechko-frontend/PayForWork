@@ -87,12 +87,12 @@ intervalId = window.setInterval(function () {
     let Sum16 = much16 * For16;
     
 
-    getID("Sum1").innerHTML = Sum11 + " ₴";
-    getID("Sum2").innerHTML = Sum12 + " ₴";
-    getID("Sum3").innerHTML = Sum13 + " ₴";
-    getID("Sum4").innerHTML = Sum14 + " ₴";
-    getID("Sum5").innerHTML = Sum15 + " ₴";
-    getID("Sum6").innerHTML = Sum16 + " ₴";
+    getID("Sum1").innerHTML = Sum11.toFixed(2) + " ₴";
+    getID("Sum2").innerHTML = Sum12.toFixed(2) + " ₴";
+    getID("Sum3").innerHTML = Sum13.toFixed(2) + " ₴";
+    getID("Sum4").innerHTML = Sum14.toFixed(2) + " ₴";
+    getID("Sum5").innerHTML = Sum15.toFixed(2) + " ₴";
+    getID("Sum6").innerHTML = Sum16.toFixed(2) + " ₴";
 
     // Масив всіх результатів
     let SumArray = [Sum11, Sum12, Sum13, Sum14, Sum15, Sum16,];
@@ -118,7 +118,7 @@ intervalId = window.setInterval(function () {
         }  
       }
       
-    getID("FullSum").innerHTML = a + " ₴";
+    getID("FullSum").innerHTML = a.toFixed(2) + " ₴";
 
 
 
