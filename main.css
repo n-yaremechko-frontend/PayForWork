@@ -95,9 +95,9 @@ input[type="text"] {
         background-color: rgb(151, 215, 55);
     }
     .Sum{
-        width: 100px;
+        min-width: 100px;
         background-color: white;
-        height: 35px;
+        height: 32px;
         text-align: center;
         border: 1px solid black;
         box-shadow: 3px 0px 5px 1px rgb(24, 52, 15);
